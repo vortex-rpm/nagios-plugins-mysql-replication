@@ -3,7 +3,7 @@
 Summary:	A plugin for nagios that will check the status of MySQL replication
 Name:		nagios-plugins-mysql-replication
 Version:	1.1
-Release:	3%{?dist}
+Release:	3.vortex%{?dist}
 Vendor:		Vortex RPM
 License:	GPLv3
 Group:		Applications/System

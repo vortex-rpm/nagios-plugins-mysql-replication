@@ -1,9 +1,9 @@
 %define debug_package %{nil}
 
-Summary:	A plugin for nagios that will check the status of MySQL replication.
+Summary:	A plugin for nagios that will check the status of MySQL replication
 Name:		nagios-plugins-mysql-replication
 Version:	1.1
-Release:	2%{?dist}
+Release:	3%{?dist}
 Vendor:		Vortex RPM
 License:	GPLv3
 Group:		Applications/System
@@ -37,6 +37,9 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/nagios/mysql-replication.cfg
 
 %changelog
+* Sun Sep 18 2011  Ilya A. Otyutskiy <sharp@thesharp.ru> - 1.1-3.vortex
+- Remove dot from summary.
+
 * Thu Sep  8 2011  Ilya A. Otyutskiy <sharp@thesharp.ru> - 1.1-2.vortex
 - Vortex rebranding.
 
